@@ -1,14 +1,14 @@
-import Image from 'next/image'
 import React from 'react'
-import { motion } from 'framer-motion';
 
-function Skill({ title, imgURL, delay }) {
+function Skill({ title, imgURL, rank }) {
     return (
-        <div className='relative'>
-            <motion.div className='w-16 h-16 p-2 rounded-xl shadow-lg shadow-primary/30 bg-white flex justify-center z-10 items-center' transition={{ duration: 0.5, delay: delay / 10 }} variants={{ hidden: { opacity: 0, scale: 0.5 }, visible: { opacity: 1, scale: 1 } }}>
-                {/* <Image src={imgURL} width={40} height={40} alt={title} className='drop-shadow-2xl' /> */}
-                <img src={imgURL} alt={title} className='w-10 h-10' />
-            </motion.div>
+        <div className={`${rank === 1 ? "sm:w-24 sm:h-24 w-20 h-20" : "sm:w-20 sm:h-20 w-16 h-16"} p-2 animate-fade-up rounded-xl shadow-sm bg-white flex justify-center flex-col items-center`}>
+            <div>
+                <img src={imgURL} alt={title} className={`${rank === 1 ? "sm:w-12 sm:h-12 w-10 h-10" : "sm:w-10 sm:h-10 w-8 h-8"} rounded-lg`} />
+            </div>
+            <div className={`${rank === 1 ? "sm:text-sm text-xs" : "sm:text-xs text-[10px]"} mt-2 font-semibold`}>
+                {title}
+            </div>
         </div>
     )
 }

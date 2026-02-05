@@ -1,20 +1,21 @@
-import Image from 'next/image'
-import React from 'react'
-
 function Hero() {
+
   return (
-    <div className='min-w-full min-h-screen bg-primary flex justify-center items-center rounded-b-4xl lg:rounded-b-none' id='home'>
-      <div className='w-full h-full max-w-screen-lg flex flex-col lg:gap-12 p-4 justify-center items-center lg:flex-row-reverse lg:items-center lg:p-16'>
-        <div className='max-w-lg'>
-          <Image src="/images/picture.png" width={1080} height={1080} alt='MasoudSR Picture' />
+    <div className="max-w-screen-lg m-auto px-4">
+      <div className="flex items-center flex-col pt-32 pb-12">
+        <div>
+          <img src="/images/picture.png" alt="" className="h-60" />
         </div>
-        <div className='-translate-y-[50%] lg:translate-0 drop-shadow-sm max-w-lg'>
-          <div>
-            <Image src="/images/logo.png" width={972} height={239} alt='MASOUD S.R' />
-          </div>
-          <h2 className='text-primary px-4 py-2 rounded-4xl bg-white mt-2 text-xl text-center'>
-            Front-End Web Developer
+        <div className="flex flex-col">
+          <h2 className='lg:text-6xl sm:text-5xl text-2xl text-center font-bold'>
+            AmirMasoud SepehrRad
           </h2>
+          <h3 className="lg:text-4xl bg-primary rounded-full sm:text-3xl text-center py-2 shadow-sm text-shadow-sm text-xl font-semibold mt-2 text-white">
+            Front-End Web Developer
+          </h3>
+          <h4 className="font-medium text-center lg:text-xl">
+            MSc in Software Engineering
+          </h4>
         </div>
       </div>
     </div>
