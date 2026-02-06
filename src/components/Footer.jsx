@@ -26,10 +26,10 @@ function Footer() {
             <a href="https://t.me/masoudsr" target="_blank" className='transition-all duration-300 hover:-translate-y-0.5 p-1 active:translate-y-0 active:scale-95'>
               <RiTelegram2Fill size={25} />
             </a>
-            <a href="https://t.me/masoudsr" target="_blank" className='transition-all duration-300 hover:-translate-y-0.5 p-1 active:scale-95 active:translate-y-0'>
+            <a href="https://www.linkedin.com/in/MasoudSR/" target="_blank" className='transition-all duration-300 hover:-translate-y-0.5 p-1 active:scale-95 active:translate-y-0'>
               <FaLinkedinIn size={25} />
             </a>
-            <a href="https://instagram/masoudsr" target="_blank" className='transition-all duration-300 hover:-translate-y-0.5 active:scale-95 p-1 active:translate-y-0'>
+            <a href="https://www.instagram.com/masoudsr.dev" target="_blank" className='transition-all duration-300 hover:-translate-y-0.5 active:scale-95 p-1 active:translate-y-0'>
               <FaInstagram size={25} />
             </a>
           </div>
