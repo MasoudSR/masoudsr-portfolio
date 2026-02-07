@@ -5,7 +5,7 @@ import { FaInstagram, FaLinkedinIn } from 'react-icons/fa6';
 
 function Footer() {
   return (
-    <div className='bg-gray-50 border-t border-divider'>
+    <div className='border-t border-divider'>
       <div className='max-w-screen-lg p-4 m-auto'>
         <div className='flex flex-col-reverse sm:flex-row justify-between gap-4 items-center'>
           <div>

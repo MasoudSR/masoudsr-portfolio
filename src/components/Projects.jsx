@@ -5,21 +5,21 @@ import { MdArrowRight } from 'react-icons/md'
 
 function Projects() {
     return (
-        <div className='border-t border-divider mt-10 py-10 bg-slate-100'>
+        <div className='border-t border-divider mt-10 py-10 bg-slate-100 dark:bg-slate-800'>
             <div className='max-w-screen-lg m-auto sm:px-4'>
                 <h1 className='text-4xl text-center pb-5 text-shadow'>Projects</h1>
-                <div className='sm:border border-y gap-4 sm:rounded-2xl border-primary/30 shadow-sm flex-col shadow-primary/30 w-full flex justify-between p-4 bg-white'>
+                <div className='sm:border border-y gap-4 sm:rounded-2xl border-primary/30 shadow-sm flex-col shadow-primary/30 w-full flex justify-between p-4 bg-white dark:bg-slate-700'>
                     <div className='flex justify-between border-b border-border pb-2'>
                         <div className='flex flex-col sm:flex-row items-baseline sm:gap-2'>
                             <h4 className='text-xl sm:text-2xl font-semibold'>Cabichi</h4>
-                            <h5 className='text-gray-700 sm:text-lg text-sm'>Smart Cabinet Analyzer</h5>
+                            <h5 className='text-gray-700 dark:text-gray-300 sm:text-lg text-sm'>Smart Cabinet Analyzer</h5>
                         </div>
                         <div>
-                            <div className='rounded-lg bg-primary-soft flex items-center border border-border text-sm sm:text-base sm:flex-row flex-col'>
-                                <div className='border-b text-center sm:border-none border-gray-300 px-3 py-0.5'>
+                            <div className='rounded-lg bg-primary-soft flex items-center border border-border dark:border-slate-600 text-sm sm:text-base sm:flex-row flex-col'>
+                                <div className='border-b text-center sm:border-none border-gray-300 dark:border-slate-600 px-3 py-0.5'>
                                     Commercial Project
                                 </div>
-                                <div className='sm:border-l border-gray-300 sm:pl-2 sm:ml-2 py-0.5 px-3 text-center'>Private Repository</div>
+                                <div className='sm:border-l border-gray-300 dark:border-slate-600 sm:pl-2 sm:ml-2 py-0.5 px-3 text-center'>Private Repository</div>
                             </div>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ function Projects() {
                 <div className='grid sm:grid-cols-2 gap-4 justify-center mt-8'>
                     {projectsData.map(project => <Project key={project.title} data={project} />)}
                 </div>
-                <div className='text-center border-y sm:border-x mt-4 border-border p-4 bg-white sm:rounded-2xl'>
+                <div className='text-center border-y sm:border-x mt-4 border-border p-4 bg-white dark:bg-slate-700 sm:rounded-2xl'>
                     View more projects on<a href="https://github.com/MasoudSR" target="_blank" className='group inline text-primary font-semibold'> GitHub
                         <MdArrowRight size={18} className='inline group-hover:translate-x-0 -translate-x-0.5 transition-all duration-700' /></a>
                 </div>

@@ -14,7 +14,7 @@ function Skills() {
                 <Skill title={"CSS3"} imgURL={"/images/skills/css3.svg"} delay={1} rank={2} />
                 <Skill title={"JavaScript"} imgURL={"/images/skills/javascript.svg"} delay={1} rank={2} />
                 <Skill title={"Tailwind"} imgURL={"/images/skills/tailwind.svg"} delay={1} rank={2} />
-                <Skill title={"MaterialUI"} imgURL={"/images/skills/mui.png"} delay={1} rank={2} />
+                <Skill title={"MaterialUI"} imgURL={"/images/skills/mui.svg"} delay={1} rank={2} />
                 <Skill title={"Redux"} imgURL={"/images/skills/redux.svg"} delay={1} rank={2} />
                 <Skill title={"GraphQL"} imgURL={"/images/skills/graphql.svg"} delay={1} rank={2} />
             </div>
