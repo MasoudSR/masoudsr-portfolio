@@ -19,7 +19,7 @@ function Projects() {
                                 <div className='border-b text-center sm:border-none border-gray-300 dark:border-slate-600 px-3 py-0.5'>
                                     Commercial Project
                                 </div>
-                                <div className='sm:border-l border-gray-300 dark:border-slate-600 sm:pl-2 sm:ml-2 py-0.5 px-3 text-center'>Private Repository</div>
+                                <div className='sm:border-l border-gray-300 dark:border-slate-600 sm:px-3 py-0.5 px-3 text-center'>Private Repository</div>
                             </div>
                         </div>
                     </div>

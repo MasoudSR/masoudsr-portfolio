@@ -13,7 +13,7 @@ function Footer() {
               <h6 className='font-bold text-xl'>
                 Masoud<span className='text-primary'>SR</span>
               </h6>
-              <p>Front-end Developer</p>
+              <p>Frontend Developer</p>
             </div>
             <div className='text-xs sm:text-left text-center'>
               ©2026

@@ -11,7 +11,7 @@
 		"title": "Notichi",
 		"subtitle": "A Notebook App",
 		"description": "Notebook app with folder organization, search functionality, local storage, cloud synchronization, and PWA installation capability.",
-		"link": "https://notichi.netlify.app/",
+		"link": "https://notichi.masoudsr.ir/",
 		"github": "https://github.com/MasoudSR/notichi",
 		"imgURL": "/images/projects/notichi.png"
 	},
