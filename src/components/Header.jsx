@@ -7,7 +7,7 @@ function Header() {
     return (
         <div className='border-b border-divider'>
             <div className='max-w-screen-lg m-auto p-4 flex justify-between items-center'>
-                <h1 className='font-bold lg:text-4xl sm:text-3xl text-2xl'>
+                <h1 className='font-bold sm:text-3xl text-2xl'>
                     <a href="http://masoudsr.ir">Masoud<span className='text-primary'>SR</span></a>
                 </h1>
                 <div className='flex gap-1 justify-center items-center'>
